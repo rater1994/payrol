@@ -1,6 +1,6 @@
 package com.employee.system.payroll.util;
 
-import com.employee.system.payroll.controller.EmployeeController;
+import com.employee.system.payroll.controllers.EmployeeController;
 import com.employee.system.payroll.model.Employee;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.hateoas.server.RepresentationModelAssembler;

@@ -1,4 +1,4 @@
-package com.employee.system.payroll.controller;
+package com.employee.system.payroll.controllers;
 
 import com.employee.system.payroll.model.Employee;
 import com.employee.system.payroll.repository.EmployeeRepository;
@@ -11,9 +11,7 @@ import org.springframework.hateoas.IanaLinkRelations;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import javax.xml.ws.Response;
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
